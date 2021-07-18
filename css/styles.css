@@ -7308,7 +7308,8 @@ textarea.form-control-lg {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: justify !important;
+  text-align-last: center !important;
 }
 
 .text-decoration-none {
@@ -10996,7 +10997,7 @@ html {
 
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 15rem;
+  padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -11070,4 +11071,9 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.header-link{
+  color: gainsboro;
+  text-decoration:none;
 }
