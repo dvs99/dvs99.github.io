@@ -7312,6 +7312,14 @@ textarea.form-control-lg {
   text-align-last: center !important;
 }
 
+.text-center-nonj {
+  text-align: center !important;
+}
+
+.text-j {
+  text-align: justify !important;
+}
+
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -11099,4 +11107,23 @@ html {
 .portfolio-item-link {
   color: #1abc9c;
   text-decoration:none;
+}
+
+.box {
+  position: relative;
+  width:    100%; /* desired width */
+}
+
+.box:before {
+  content:     "";
+  display:     block;
+  padding-top: 80%;
+}
+
+.content {
+  position: absolute;
+  top:      0;
+  left:     0;
+  bottom:   0;
+  right:    0;
 }
